@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Login Usuario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+        <link rel="stylesheet" href="login.css" type="text/css" />
+    </head>
+    <body>      
+            <form id="Principal" action="Login.do" method="post">
+            <div id="form-container">
+                    <div class="well" id="camposLogin">
+                        <h1 class="text-center">Login</h1>
+                        <div class="input-group">
+                            <span class="input-group-addon" id="sizing-addon1">
+                                <span class="glyphicon glyphicon glyphicon-user" aria-hidden="true"></span>
+                            </span>
+                            <input type="text" class="form-control" placeholder="Digite login de usuário" aria-describedby="sizing-addon2" name="login" />
+                        </div><br/>
+
+                        <div class="input-group">
+                            <span class="input-group-addon" id="sizing-addon1">
+                                <span class="glyphicon glyphicon glyphicon-lock" aria-hidden="true"></span>
+                            </span>            
+                            <input type="password" class="form-control" placeholder="Digite sua senha" aria-describedby="sizing-addon2" name="senha" />
+                        </div><br/>                
+                        <input type="submit" class="btn btn-success" value="Entrar"/>
+                        <button type="button" class="btn btn-info"><a href="Pessoa.do?acao=cadPessoa">Cadastrar</a></button>
+                    </div>                
+            </div>
+        </form>
+    </body>
+</html>
+
+
+
+<!-- 
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <form method="post" action="Login.do" >
+                <label>Login</label>
+                <input type="text" name="login" />
+                <label>Senha</label>
+                <input type="text" name="senha" />
+                <input type="submit" value ="Enviar"/>
+            </form>
+        
+        </div>
+    </body>
+</html>
+-->

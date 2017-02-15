@@ -1,0 +1,25 @@
+#camposLogin{
+    position 	:  	absolute;    
+    width    	:	300px;
+}
+
+#formLogin1{
+    position            :   	absolute;    
+    left		:	37%;
+    top			:	35%;
+    background-color    :       #CCC;
+}
+
+#tela{
+    background-color:#87CEFA;
+}
+
+#form-container{
+    width: 100vw;
+    height: 100vh;
+    background: #87CEFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
